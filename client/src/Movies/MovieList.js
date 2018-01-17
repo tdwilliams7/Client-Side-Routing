@@ -16,8 +16,7 @@ export default class MovieList extends React.Component {
       .catch(error => {
         console.error('Server Error', error);
       });
-  }
-  F;
+  };
 
   render() {
     return (
